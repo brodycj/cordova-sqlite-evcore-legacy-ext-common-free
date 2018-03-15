@@ -8,6 +8,14 @@ This plugin version is available under GPL v3 (<https://www.gnu.org/licenses/gpl
 
 NOTE: Commercial licenses for [litehelpers / Cordova-sqlite-enterprise-free](https://github.com/litehelpers/Cordova-sqlite-enterprise-free) are valid for this plugin version as well.
 
+XXX DOC TODO LIST:
+- check for text marked as _changed_ and ~~deleted~~
+- compare doc against related plugin versions
+
+XXX evcore TODO LIST:
+- update sqlite
+- extra durable
+
 ## About this plugin version branch
 
 Free enterprise version with performance improvements for Android - legacy common version branch (supports Windows 8.1/Windows Phone 8.1 along with Android/iOS/macOS/Windows 10 UWP) with ~~FUTURE TODO~~ limited extra features _(FUTURE TBD pre-populated database support)_, using the `before_plugin_install` hook to fetch the sqlite3 component dependencies from npm.
